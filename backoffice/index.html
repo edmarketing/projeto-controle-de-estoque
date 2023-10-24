@@ -8,21 +8,29 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <div id="menuPrincipal" class="menuPrincipal ocultar">
+    <div id="menuPrincipal" class="menuPrincipal ocultar">        
         <div class="menuItens">
-            <button class="btn_menuItem">Edmarketing</button>
-            <button class="btn_menuItem">Edmarketing</button>
-            <button class="btn_menuItem">Edmarketing</button>
-            <button class="btn_menuItem">Edmarketing</button>
-            <button class="btn_menuItem">Edmarketing</button>
+            <a href="colaboradores/colaboradores.html" target="frprincipal" class="btn_menuItem">Colaboradores</a>
+            <a href="#" class="btn_menuItem">Edmarketing</a>
+            <a href="#" class="btn_menuItem">Edmarketing</a>
+            <a href="#" class="btn_menuItem">Edmarketing</a>
+            <a href="#" class="btn_menuItem">Edmarketing</a>
         </div>
-        <div>
-            <button id="btn_menuPrincipal" class="btn_menuPrincipal">
-                <img src="../imagens/menu.svg" alt="">
-            </button>
-        </div>
+        <div>            
+            <img src="../imagens/menu.svg" id="btn_menuPrincipal" class="btn_menuPrincipal">
+        </div>        
     </div>
-    
+
+    <div id="topo" class="topo">
+        <div></div>
+        <div id="logo">Logo</div>
+        <div id="config">Config</div>
+    </div>
+
+    <div id="principal" class="principal">
+        <iframe name="fprincipal" class="fprincipal"></iframe>
+    </div>
+        
     <script src="../estoque_geral.js" type="module"></script>
     <script src="index.js" type="module"></script>
 </body>
