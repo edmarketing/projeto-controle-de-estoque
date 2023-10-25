@@ -54,7 +54,7 @@ body{
 }
 
 .btn_menuPrincipal img{
-    width: inherit;
+    width: inherit;      
 }
 
 .principal{
@@ -70,3 +70,43 @@ body{
     height: 100%;
     border: none;
 }
+
+/*--FORMATAÇÃO DE GRIDS----*/
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tituloGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #248;
+    color: #fff;
+}
+.colunaTituloGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dadosGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.linhaGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.colunaLinhaGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------*/
+

@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estoque - BackOffice</title>
     <link rel="stylesheet" type="text/css" href="../estoque_geral.css">
@@ -9,8 +10,8 @@
 </head>
 <body>
     <div id="menuPrincipal" class="menuPrincipal ocultar">        
-        <div class="menuItens">
-            <a href="colaboradores/colaboradores.html" target="frprincipal" class="btn_menuItem">Colaboradores</a>
+        <div class="menuItens">          
+            <a href="./colaboradores/colaboradores.html" target="fprincipal" class="btn_menuItem">Colaboradores</a>
             <a href="#" class="btn_menuItem">Edmarketing</a>
             <a href="#" class="btn_menuItem">Edmarketing</a>
             <a href="#" class="btn_menuItem">Edmarketing</a>
@@ -23,10 +24,19 @@
 
     <div id="topo" class="topo">
         <div></div>
-        <div id="logo">Logo</div>
-        <div id="config">Config</div>
+        <div id="logo" class="logo">Logo</div>
+        <div id="config" class="config">
+            <div>
+                <div>id</div>
+                <div>nome</div>
+            </div>
+            <div>
+                <img src="../imagens/config.svg" id="btn_config" class="btn_config">
+            </div>
+            
+        </div>
     </div>
-
+    
     <div id="principal" class="principal">
         <iframe name="fprincipal" class="fprincipal"></iframe>
     </div>
