@@ -1,4 +1,7 @@
 const dadosGrid=document.querySelector("#dadosGrid");
+const btn_add=document.querySelector("#btn_add");
+const novoColaborador=document.querySelector("#novoColaborador");
+const btn_fecharPopup=document.querySelector("#btn_fecharPopup");
 
 const endpint_todoscolaboradores="http://127.0.0.1:1880/todosusuarios";
 fetch(endpint_todoscolaboradores)
@@ -36,4 +39,12 @@ fetch(endpint_todoscolaboradores)
 
         dadosGrid.appendChild(divlinha);
     });
-})
+});
+
+btn_add.addEventListener("click",(evt)=>{
+    novoColaborador.classList.add("ocultarPopup");
+});
+
+btn_fecharPopup.addEventListener("click",(evt)=>{
+    novoColaborador.classList.remove("ocultarPopup");
+});
