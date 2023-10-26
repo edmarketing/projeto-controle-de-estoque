@@ -1,4 +1,3 @@
-/*
 const btn_menuPrincipal=document.querySelector("#btn_menuPrincipal");
 const menuPrincipal=document.querySelector("#menuPrincipal");
 const todosmenusPrincipais=[...document.querySelectorAll(".btn_menuItem")];
@@ -12,4 +11,3 @@ todosmenusPrincipais.forEach(e=>{
         menuPrincipal.classList.add("ocultar");
     });
 });
-*/

@@ -1,4 +1,3 @@
-/*
 const dadosGrid=document.querySelector("#dadosGrid");
 const btn_add=document.querySelector("#btn_add");
 const novoColaborador=document.querySelector("#novoColaborador");
@@ -49,4 +48,3 @@ btn_add.addEventListener("click",(evt)=>{
 btn_fecharPopup.addEventListener("click",(evt)=>{
     novoColaborador.classList.remove("ocultarPopup");
 });
-*/

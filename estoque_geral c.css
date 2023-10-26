@@ -1,6 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   /* box-sizing: border-box;*/
+}
+:root{
+    --azul-principal:#005288;
+    --fundo-janela:#ccc;
+}
+body{
+    overflow: hidden;
+}
 
 .menuPrincipal{
-  /*  position: absolute;
+    position: absolute;
     top: 0px;
     left: 0px; 
     display: flex;
@@ -8,9 +20,9 @@
     align-items: flex-start;    
     width: 240px;
     height: 100vh;
-  */
+  /*  transition: all .2s;*/
 }
-/*
+
 .ocultar{
     left: -210px !important;
     transition: all .2s;
@@ -43,7 +55,7 @@
 }
 /*.btn_menuPrincipal img{
     width: inherit;      
-}
+}*/
 .principal{
     display: flex;
     justify-content: flex-start;
@@ -57,7 +69,7 @@
     border: none;
 }
 
-/*--FORMATAÇÃO DE GRIDS----
+/*--FORMATAÇÃO DE GRIDS----*/
 .grid{
     display: flex;
     justify-content: center;
@@ -95,8 +107,8 @@
     justify-content: center;
     align-items: center;
 }
-/***********************
-/*---TOPO DA JANELA-----
+/************************/
+/*---TOPO DA JANELA-----*/
 .topoJanela{
     display: flex;
     justify-content:space-between;
@@ -110,7 +122,7 @@
     width: 40px;
 }
 /************************/
-/*---JANELA NOVO-----
+/*---JANELA NOVO-----*/
 .popup{
     display: flex;
     justify-content: center;
@@ -157,7 +169,7 @@
     border-radius: 0px 0px 5px 5px; 
     padding: 5px;   
     width: 100%;
-   /* color: #fff;
+   /* color: #fff;*/
 }
 .btn_janelaoper{
     width: 30px;
@@ -191,5 +203,5 @@
 }
 .ocultarPopup{
     display: none !important;
-}    */
+}    
 /************************/
